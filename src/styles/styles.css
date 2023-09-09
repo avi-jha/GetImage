@@ -16,8 +16,9 @@
 
 /* Add styles for your image, header, text fields, button, and text */
 .centered-container img {
-  max-width: 50%;
-  height: auto;
+  width: 250;
+  max-width: 70%;
+  height: 100px;
 }
 
 .centered-container h1 {
