@@ -1,0 +1,79 @@
+.centered-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  max-width: 400px; /* Optional: Set a maximum width for the container */
+  padding: 20px; /* Optional: Add some padding to the container */
+
+  /* Add any other styling you want for your container here */
+}
+
+/* Add styles for your image, header, text fields, button, and text */
+.centered-container img {
+  max-width: 50%;
+  height: auto;
+}
+
+.centered-container h1 {
+  color: rgba(0, 0, 0, 0.4); /* Background color */
+  font-family: Inter, sans-serif; /* Font family */
+  font-size: 14px; /* Font size */
+  font-weight: 400; /* Font weight */
+  line-height: 14px; /* Line height */
+  letter-spacing: 0px; /* Letter spacing */
+  text-align: left; /* Text alignment */
+  width: 281px; /* Width */
+  height: 14px; /* Height */
+  padding: 10px; /* Optional: Add padding for better appearance */
+  margin: 10px 0; /* Optional: Add margin for spacing */
+  margin-bottom: 40px;
+}
+
+.centered-container input[type="text"] {
+  width: 350px;
+  height: 30px;
+  padding: 10px;
+  margin: 5px 0 20px; /* Add margin at the bottom of the text fields */
+  background: rgba(245, 245, 245, 1); /* Background color */
+  max-width: 100%; /* Maximum width */
+  border: none; /* Remove the border */
+  border-radius: 5px; /* Add rounded edges */
+  outline: none; /* Remove the default outline when focused */
+  text-indent: 10px; /* Move the placeholder text to the right by 10px */
+}
+
+.centered-container button {
+  background: rgba(133, 98, 255, 1); /* Background color */
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  width: 370px; /* Same width as text fields */
+  height: 40px; /* Same height as text fields */
+  margin-top: 10px; /* Adjust margin as needed */
+  margin-bottom: 20px;
+}
+
+.centered-container p {
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.light-text {
+  color: rgba(0, 0, 0, 0.75); /* Light text color */
+}
+
+.dark-text {
+  color: rgba(0, 0, 0, 1); /* Dark text color */
+}
