@@ -9,7 +9,7 @@ function App() {
       <h1>Download All sneaker photos from StockX.</h1>
       <input type="text" placeholder="Product Name" />
       <input type="text" placeholder="Color" />
-      <button>Button</button>
+      <button>Click me</button>
       <p>
         <span className="light-text">made remotely by</span>{" "}
         <span className="dark-text">Suchit & Avinash</span>
